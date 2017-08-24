@@ -1,2 +1,2 @@
-# RM2018_CLion_Toolchain
-Mac Toolchain for RM2017 dev board. CLion + STM32CubeMX + gcc-arm-embedded + JLink Debugger
+# RM2017_MAIN_CONTROLLER_DJI
+Open source schematics and embedded program for the RoboMasters 2017 main controller. Thanks for RoboMasters.
