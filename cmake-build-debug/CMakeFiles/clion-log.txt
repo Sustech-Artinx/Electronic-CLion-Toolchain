@@ -1,0 +1,10 @@
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_TOOLCHAIN_FILE=STM32F427IIHx.cmake -G "CodeBlocks - Unix Makefiles" /Users/Beck/Developer/RM2018_CLion_Toolchain
+-- Configuring done
+-- Generating done
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_TOOLCHAIN_FILE
+
+
+-- Build files have been written to: /Users/Beck/Developer/RM2018_CLion_Toolchain/cmake-build-debug

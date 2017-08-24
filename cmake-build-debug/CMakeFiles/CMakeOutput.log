@@ -1,0 +1,175 @@
+The target system is: Generic - 1 - 
+The host system is: Darwin - 16.7.0 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/local/bin/arm-none-eabi-gcc 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+
+The C compiler identification is GNU, found in "/Users/Beck/Developer/RM2018_CLion_Toolchain/cmake-build-debug/CMakeFiles/3.8.2/CompilerIdC/CMakeCCompilerId.o"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/Beck/Developer/RM2018_CLion_Toolchain/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/gmake" "cmTC_62454/fast"
+/usr/local/bin/gmake -f CMakeFiles/cmTC_62454.dir/build.make CMakeFiles/cmTC_62454.dir/build
+gmake[1]: Entering directory '/Users/Beck/Developer/RM2018_CLion_Toolchain/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_62454.dir/CMakeCCompilerABI.c.obj
+/usr/local/bin/arm-none-eabi-gcc   -mcpu=cortex-m4 -mthumb -mthumb-interwork -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -g -fno-common -fmessage-length=0 -specs=nosys.specs -std=gnu99    -o CMakeFiles/cmTC_62454.dir/CMakeCCompilerABI.c.obj   -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.8/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_62454
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_62454.dir/link.txt --verbose=1
+/usr/local/bin/arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mthumb-interwork -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -g -fno-common -fmessage-length=0 -specs=nosys.specs -std=gnu99   -Wl,-gc-sections,-Map=binary.map -T /Users/Beck/Developer/RM2018_CLion_Toolchain/STM32F427IIHx_FLASH.ld -v CMakeFiles/cmTC_62454.dir/CMakeCCompilerABI.c.obj  -o cmTC_62454 
+Using built-in specs.
+Reading specs from /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/nosys.specs
+rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence
+COLLECT_GCC=/usr/local/bin/arm-none-eabi-gcc
+COLLECT_LTO_WRAPPER=/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/lto-wrapper
+Target: arm-none-eabi
+Configured with: /Users/build/workspace/GCC-5-build_build-toolchain-mac/gcc-arm-none-eabi-5_4-2016q3-20160926/src/gcc/configure --target=arm-none-eabi --prefix=/Users/build/workspace/GCC-5-build_build-toolchain-mac/gcc-arm-none-eabi-5_4-2016q3-20160926/install-native --libexecdir=/Users/build/workspace/GCC-5-build_build-toolchain-mac/gcc-arm-none-eabi-5_4-2016q3-20160926/install-native/lib --infodir=/Users/build/workspace/GCC-5-build_build-toolchain-mac/gcc-arm-none-eabi-5_4-2016q3-20160926/install-native/share/doc/gcc-arm-none-eabi/info --mandir=/Users/build/workspace/GCC-5-build_build-toolchain-mac/gcc-arm-none-eabi-5_4-2016q3-20160926/install-native/share/doc/gcc-arm-none-eabi/man --htmldir=/Users/build/workspace/GCC-5-build_build-toolchain-mac/gcc-arm-none-eabi-5_4-2016q3-20160926/install-native/share/doc/gcc-arm-none-eabi/html --pdfdir=/Users/build/workspace/GCC-5-build_build-toolchain-mac/gcc-arm-none-eabi-5_4-2016q3-20160926/install-native/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-plugins --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-newlib --with-headers=yes --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/Users/build/workspace/GCC-5-build_build-toolchain-mac/gcc-arm-none-eabi-5_4-2016q3-20160926/install-native/arm-none-eabi --build=x86_64-apple-darwin10 --host=x86_64-apple-darwin10 --with-gmp=/Users/build/workspace/GCC-5-build_build-toolchain-mac/gcc-arm-none-eabi-5_4-2016q3-20160926/build-native/host-libs/usr --with-mpfr=/Users/build/workspace/GCC-5-build_build-toolchain-mac/gcc-arm-none-eabi-5_4-2016q3-20160926/build-native/host-libs/usr --with-mpc=/Users/build/workspace/GCC-5-build_build-toolchain-mac/gcc-arm-none-eabi-5_4-2016q3-20160926/build-native/host-libs/usr --with-isl=/Users/build/workspace/GCC-5-build_build-toolchain-mac/gcc-arm-none-eabi-5_4-2016q3-20160926/build-native/host-libs/usr --with-cloog=/Users/build/workspace/GCC-5-build_build-toolchain-mac/gcc-arm-none-eabi-5_4-2016q3-20160926/build-native/host-libs/usr --with-libelf=/Users/build/workspace/GCC-5-build_build-toolchain-mac/gcc-arm-none-eabi-5_4-2016q3-20160926/build-native/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-lstdc++ -lm' --with-pkgversion='GNU Tools for ARM Embedded Processors' --with-multilib-list=armv6-m,armv7-m,armv7e-m,armv7-r,armv8-m.base,armv8-m.main
+Thread model: single
+gcc version 5.4.1 20160919 (release) [ARM/embedded-5-branch revision 240496] (GNU Tools for ARM Embedded Processors) 
+COMPILER_PATH=/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/:/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/:/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/bin/
+LIBRARY_PATH=/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/fpu/:/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/:/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../arm-none-eabi/lib/armv7e-m/fpu/:/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/:/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/:/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/:/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mthumb' '-mthumb-interwork' '-mfloat-abi=hard' '-mfpu=fpv4-sp-d16' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-std=gnu99' '-T' '/Users/Beck/Developer/RM2018_CLion_Toolchain/STM32F427IIHx_FLASH.ld' '-v' '-o' 'cmTC_62454'
+ /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/collect2 -plugin /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/liblto_plugin.so -plugin-opt=/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/lto-wrapper -plugin-opt=-fresolution=/var/folders/3_/gyjd3jn92x33qgb5l4zzh9h00000gn/T//cc5cE2Uj.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lg -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys --sysroot=/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../arm-none-eabi -X -o cmTC_62454 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/fpu/crti.o /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/fpu/crtbegin.o /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/crt0.o -L/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/fpu -L/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu -L/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../arm-none-eabi/lib/armv7e-m/fpu -L/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1 -L/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc -L/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib -L/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../arm-none-eabi/lib -gc-sections -Map=binary.map CMakeFiles/cmTC_62454.dir/CMakeCCompilerABI.c.obj --start-group -lgcc -lg -lc --end-group --start-group -lgcc -lc -lnosys --end-group /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/fpu/crtend.o /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/fpu/crtn.o -T /Users/Beck/Developer/RM2018_CLion_Toolchain/STM32F427IIHx_FLASH.ld
+/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/bin/ld: warning: cannot find entry symbol Reset_Handler; defaulting to 0000000008000000
+gmake[1]: Leaving directory '/Users/Beck/Developer/RM2018_CLion_Toolchain/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-none-eabi-ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/Beck/Developer/RM2018_CLion_Toolchain/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/local/bin/gmake" "cmTC_62454/fast"]
+  ignore line: [/usr/local/bin/gmake -f CMakeFiles/cmTC_62454.dir/build.make CMakeFiles/cmTC_62454.dir/build]
+  ignore line: [gmake[1]: Entering directory '/Users/Beck/Developer/RM2018_CLion_Toolchain/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_62454.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [/usr/local/bin/arm-none-eabi-gcc   -mcpu=cortex-m4 -mthumb -mthumb-interwork -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -g -fno-common -fmessage-length=0 -specs=nosys.specs -std=gnu99    -o CMakeFiles/cmTC_62454.dir/CMakeCCompilerABI.c.obj   -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.8/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_62454]
+  ignore line: [/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_62454.dir/link.txt --verbose=1]
+  ignore line: [/usr/local/bin/arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mthumb-interwork -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -g -fno-common -fmessage-length=0 -specs=nosys.specs -std=gnu99   -Wl,-gc-sections,-Map=binary.map -T /Users/Beck/Developer/RM2018_CLion_Toolchain/STM32F427IIHx_FLASH.ld -v CMakeFiles/cmTC_62454.dir/CMakeCCompilerABI.c.obj  -o cmTC_62454 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [Reading specs from /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/nosys.specs]
+  ignore line: [rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence]
+  ignore line: [COLLECT_GCC=/usr/local/bin/arm-none-eabi-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/lto-wrapper]
+  ignore line: [Target: arm-none-eabi]
+  ignore line: [Configured with: /Users/build/workspace/GCC-5-build_build-toolchain-mac/gcc-arm-none-eabi-5_4-2016q3-20160926/src/gcc/configure --target=arm-none-eabi --prefix=/Users/build/workspace/GCC-5-build_build-toolchain-mac/gcc-arm-none-eabi-5_4-2016q3-20160926/install-native --libexecdir=/Users/build/workspace/GCC-5-build_build-toolchain-mac/gcc-arm-none-eabi-5_4-2016q3-20160926/install-native/lib --infodir=/Users/build/workspace/GCC-5-build_build-toolchain-mac/gcc-arm-none-eabi-5_4-2016q3-20160926/install-native/share/doc/gcc-arm-none-eabi/info --mandir=/Users/build/workspace/GCC-5-build_build-toolchain-mac/gcc-arm-none-eabi-5_4-2016q3-20160926/install-native/share/doc/gcc-arm-none-eabi/man --htmldir=/Users/build/workspace/GCC-5-build_build-toolchain-mac/gcc-arm-none-eabi-5_4-2016q3-20160926/install-native/share/doc/gcc-arm-none-eabi/html --pdfdir=/Users/build/workspace/GCC-5-build_build-toolchain-mac/gcc-arm-none-eabi-5_4-2016q3-20160926/install-native/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-plugins --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-newlib --with-headers=yes --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/Users/build/workspace/GCC-5-build_build-toolchain-mac/gcc-arm-none-eabi-5_4-2016q3-20160926/install-native/arm-none-eabi --build=x86_64-apple-darwin10 --host=x86_64-apple-darwin10 --with-gmp=/Users/build/workspace/GCC-5-build_build-toolchain-mac/gcc-arm-none-eabi-5_4-2016q3-20160926/build-native/host-libs/usr --with-mpfr=/Users/build/workspace/GCC-5-build_build-toolchain-mac/gcc-arm-none-eabi-5_4-2016q3-20160926/build-native/host-libs/usr --with-mpc=/Users/build/workspace/GCC-5-build_build-toolchain-mac/gcc-arm-none-eabi-5_4-2016q3-20160926/build-native/host-libs/usr --with-isl=/Users/build/workspace/GCC-5-build_build-toolchain-mac/gcc-arm-none-eabi-5_4-2016q3-20160926/build-native/host-libs/usr --with-cloog=/Users/build/workspace/GCC-5-build_build-toolchain-mac/gcc-arm-none-eabi-5_4-2016q3-20160926/build-native/host-libs/usr --with-libelf=/Users/build/workspace/GCC-5-build_build-toolchain-mac/gcc-arm-none-eabi-5_4-2016q3-20160926/build-native/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-lstdc++ -lm' --with-pkgversion='GNU Tools for ARM Embedded Processors' --with-multilib-list=armv6-m,armv7-m,armv7e-m,armv7-r,armv8-m.base,armv8-m.main]
+  ignore line: [Thread model: single]
+  ignore line: [gcc version 5.4.1 20160919 (release) [ARM/embedded-5-branch revision 240496] (GNU Tools for ARM Embedded Processors) ]
+  ignore line: [COMPILER_PATH=/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/:/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/:/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/bin/]
+  ignore line: [LIBRARY_PATH=/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/fpu/:/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/:/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../arm-none-eabi/lib/armv7e-m/fpu/:/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/:/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/:/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/:/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../arm-none-eabi/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m4' '-mthumb' '-mthumb-interwork' '-mfloat-abi=hard' '-mfpu=fpv4-sp-d16' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-std=gnu99' '-T' '/Users/Beck/Developer/RM2018_CLion_Toolchain/STM32F427IIHx_FLASH.ld' '-v' '-o' 'cmTC_62454']
+  link line: [ /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/collect2 -plugin /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/liblto_plugin.so -plugin-opt=/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/lto-wrapper -plugin-opt=-fresolution=/var/folders/3_/gyjd3jn92x33qgb5l4zzh9h00000gn/T//cc5cE2Uj.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lg -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys --sysroot=/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../arm-none-eabi -X -o cmTC_62454 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/fpu/crti.o /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/fpu/crtbegin.o /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/crt0.o -L/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/fpu -L/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu -L/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../arm-none-eabi/lib/armv7e-m/fpu -L/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1 -L/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc -L/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib -L/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../arm-none-eabi/lib -gc-sections -Map=binary.map CMakeFiles/cmTC_62454.dir/CMakeCCompilerABI.c.obj --start-group -lgcc -lg -lc --end-group --start-group -lgcc -lc -lnosys --end-group /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/fpu/crtend.o /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/fpu/crtn.o -T /Users/Beck/Developer/RM2018_CLion_Toolchain/STM32F427IIHx_FLASH.ld]
+    arg [/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/var/folders/3_/gyjd3jn92x33qgb5l4zzh9h00000gn/T//cc5cE2Uj.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lg] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lnosys] ==> ignore
+    arg [--sysroot=/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../arm-none-eabi] ==> ignore
+    arg [-X] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_62454] ==> ignore
+    arg [/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/fpu/crti.o] ==> ignore
+    arg [/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/fpu/crtbegin.o] ==> ignore
+    arg [/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu/crt0.o] ==> ignore
+    arg [-L/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/fpu] ==> dir [/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/fpu]
+    arg [-L/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu] ==> dir [/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu]
+    arg [-L/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../arm-none-eabi/lib/armv7e-m/fpu] ==> dir [/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../arm-none-eabi/lib/armv7e-m/fpu]
+    arg [-L/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1] ==> dir [/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1]
+    arg [-L/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc] ==> dir [/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc]
+    arg [-L/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib] ==> dir [/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib]
+    arg [-L/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../arm-none-eabi/lib] ==> dir [/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../arm-none-eabi/lib]
+    arg [-gc-sections] ==> ignore
+    arg [-Map=binary.map] ==> ignore
+    arg [CMakeFiles/cmTC_62454.dir/CMakeCCompilerABI.c.obj] ==> ignore
+    arg [--start-group] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lg] ==> lib [g]
+    arg [-lc] ==> lib [c]
+    arg [--end-group] ==> ignore
+    arg [--start-group] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lnosys] ==> lib [nosys]
+    arg [--end-group] ==> ignore
+    arg [/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/fpu/crtend.o] ==> ignore
+    arg [/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/fpu/crtn.o] ==> ignore
+    arg [-T] ==> ignore
+    arg [/Users/Beck/Developer/RM2018_CLion_Toolchain/STM32F427IIHx_FLASH.ld] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc]
+  collapse library dir [/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/fpu] ==> [/usr/local/Cellar/gcc-arm-none-eabi/20160928/lib/gcc/arm-none-eabi/5.4.1/armv7e-m/fpu]
+  collapse library dir [/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/fpu] ==> [/usr/local/Cellar/gcc-arm-none-eabi/20160928/arm-none-eabi/lib/armv7e-m/fpu]
+  collapse library dir [/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../arm-none-eabi/lib/armv7e-m/fpu] ==> [/usr/local/Cellar/gcc-arm-none-eabi/20160928/arm-none-eabi/lib/armv7e-m/fpu]
+  collapse library dir [/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1] ==> [/usr/local/Cellar/gcc-arm-none-eabi/20160928/lib/gcc/arm-none-eabi/5.4.1]
+  collapse library dir [/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc] ==> [/usr/local/Cellar/gcc-arm-none-eabi/20160928/lib/gcc]
+  collapse library dir [/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib] ==> [/usr/local/Cellar/gcc-arm-none-eabi/20160928/arm-none-eabi/lib]
+  collapse library dir [/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../arm-none-eabi/lib] ==> [/usr/local/Cellar/gcc-arm-none-eabi/20160928/arm-none-eabi/lib]
+  implicit libs: [g;c;c;nosys]
+  implicit dirs: [/usr/local/Cellar/gcc-arm-none-eabi/20160928/lib/gcc/arm-none-eabi/5.4.1/armv7e-m/fpu;/usr/local/Cellar/gcc-arm-none-eabi/20160928/arm-none-eabi/lib/armv7e-m/fpu;/usr/local/Cellar/gcc-arm-none-eabi/20160928/lib/gcc/arm-none-eabi/5.4.1;/usr/local/Cellar/gcc-arm-none-eabi/20160928/lib/gcc;/usr/local/Cellar/gcc-arm-none-eabi/20160928/arm-none-eabi/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /Users/Beck/Developer/RM2018_CLion_Toolchain/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/gmake" "cmTC_b65c2/fast"
+/usr/local/bin/gmake -f CMakeFiles/cmTC_b65c2.dir/build.make CMakeFiles/cmTC_b65c2.dir/build
+gmake[1]: Entering directory '/Users/Beck/Developer/RM2018_CLion_Toolchain/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b65c2.dir/feature_tests.c.obj
+/usr/local/bin/arm-none-eabi-gcc   -mcpu=cortex-m4 -mthumb -mthumb-interwork -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -g -fno-common -fmessage-length=0 -specs=nosys.specs -std=gnu99    -std=c11 -o CMakeFiles/cmTC_b65c2.dir/feature_tests.c.obj   -c /Users/Beck/Developer/RM2018_CLion_Toolchain/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_b65c2
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b65c2.dir/link.txt --verbose=1
+/usr/local/bin/arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mthumb-interwork -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -g -fno-common -fmessage-length=0 -specs=nosys.specs -std=gnu99   -Wl,-gc-sections,-Map=binary.map -T /Users/Beck/Developer/RM2018_CLion_Toolchain/STM32F427IIHx_FLASH.ld  CMakeFiles/cmTC_b65c2.dir/feature_tests.c.obj  -o cmTC_b65c2 
+/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/bin/ld: warning: cannot find entry symbol Reset_Handler; defaulting to 0000000008000000
+gmake[1]: Leaving directory '/Users/Beck/Developer/RM2018_CLion_Toolchain/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /Users/Beck/Developer/RM2018_CLion_Toolchain/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/gmake" "cmTC_e1acf/fast"
+/usr/local/bin/gmake -f CMakeFiles/cmTC_e1acf.dir/build.make CMakeFiles/cmTC_e1acf.dir/build
+gmake[1]: Entering directory '/Users/Beck/Developer/RM2018_CLion_Toolchain/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e1acf.dir/feature_tests.c.obj
+/usr/local/bin/arm-none-eabi-gcc   -mcpu=cortex-m4 -mthumb -mthumb-interwork -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -g -fno-common -fmessage-length=0 -specs=nosys.specs -std=gnu99    -std=c99 -o CMakeFiles/cmTC_e1acf.dir/feature_tests.c.obj   -c /Users/Beck/Developer/RM2018_CLion_Toolchain/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_e1acf
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e1acf.dir/link.txt --verbose=1
+/usr/local/bin/arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mthumb-interwork -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -g -fno-common -fmessage-length=0 -specs=nosys.specs -std=gnu99   -Wl,-gc-sections,-Map=binary.map -T /Users/Beck/Developer/RM2018_CLion_Toolchain/STM32F427IIHx_FLASH.ld  CMakeFiles/cmTC_e1acf.dir/feature_tests.c.obj  -o cmTC_e1acf 
+/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/bin/ld: warning: cannot find entry symbol Reset_Handler; defaulting to 0000000008000000
+gmake[1]: Leaving directory '/Users/Beck/Developer/RM2018_CLion_Toolchain/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /Users/Beck/Developer/RM2018_CLion_Toolchain/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/gmake" "cmTC_bdfe4/fast"
+/usr/local/bin/gmake -f CMakeFiles/cmTC_bdfe4.dir/build.make CMakeFiles/cmTC_bdfe4.dir/build
+gmake[1]: Entering directory '/Users/Beck/Developer/RM2018_CLion_Toolchain/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bdfe4.dir/feature_tests.c.obj
+/usr/local/bin/arm-none-eabi-gcc   -mcpu=cortex-m4 -mthumb -mthumb-interwork -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -g -fno-common -fmessage-length=0 -specs=nosys.specs -std=gnu99    -std=c90 -o CMakeFiles/cmTC_bdfe4.dir/feature_tests.c.obj   -c /Users/Beck/Developer/RM2018_CLion_Toolchain/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_bdfe4
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bdfe4.dir/link.txt --verbose=1
+/usr/local/bin/arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mthumb-interwork -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -g -fno-common -fmessage-length=0 -specs=nosys.specs -std=gnu99   -Wl,-gc-sections,-Map=binary.map -T /Users/Beck/Developer/RM2018_CLion_Toolchain/STM32F427IIHx_FLASH.ld  CMakeFiles/cmTC_bdfe4.dir/feature_tests.c.obj  -o cmTC_bdfe4 
+/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/bin/ld: warning: cannot find entry symbol Reset_Handler; defaulting to 0000000008000000
+gmake[1]: Leaving directory '/Users/Beck/Developer/RM2018_CLion_Toolchain/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
