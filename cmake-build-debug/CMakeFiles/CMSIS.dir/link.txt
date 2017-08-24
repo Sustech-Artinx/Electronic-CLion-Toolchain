@@ -1,2 +1,0 @@
-/usr/local/bin/arm-none-eabi-ar cr libCMSIS.a  CMakeFiles/CMSIS.dir/startup/startup_stm32f427xx.s.obj 
-/usr/local/bin/arm-none-eabi-ranlib libCMSIS.a 
